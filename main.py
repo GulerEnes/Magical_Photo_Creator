@@ -30,11 +30,11 @@ def find_angle(p, c):
 
 	if field == 1:
 		return degree
-	if field == 2:
+	elif field == 2:
 		return 180 - degree
-	if field == 3:
+	elif field == 3:
 		return 180 + degree
-	if field == 4:
+	elif field == 4:
 		return 360 - degree
 
 
