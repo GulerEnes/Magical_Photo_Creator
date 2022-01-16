@@ -1,9 +1,12 @@
 # Magical_Photo_Creator
 
-This is a lockscreen photo creater. Takes RGB input and and return black&white output that looks like meaningless circles. But when you blur these circles it turns to original image.
+
+This is a lock screen photo creator. Takes RGB input and returns black&white output that looks like meaningless circles. But when you blur these circles it turns to the original image.
 
 
-Main purpose of these images is using on iPhone's lockscreen. When you slide the menu bottom to up, your lockscreen will be blured. So, you will we thhe magic :)
+
+The main purpose of these images is to use on iPhone's lock screen. When you slide the menu bottom to up, your lock screen will be blurred. So, you will see the magic :)
+
 
 
 Here is some examples:
