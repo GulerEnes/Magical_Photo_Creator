@@ -75,7 +75,7 @@ def main(f, img):
 			length = math.sqrt((row - center_of_magic[0]) ** 2 + (col - center_of_magic[1]) ** 2)
 			angle = find_angle((row, col), center_of_magic)
 
-			# make_thicker(length, magic, center_of_magic, 15 - mean_val // space, angle)
+			# make_thicker(length, magic, center_of_magic, 15 - mean_val // space, angle, space)
 
 			if mean_val < 50:
 				make_thicker(length, magic, center_of_magic, 16, angle, space)
@@ -104,7 +104,7 @@ def crop_gui(_):
 	shadow_img = change_brightness(shadow_img)
 
 	mask = np.zeros(inp.shape, dtype=np.uint8)
-	cv.circle(mask, (x, y), radius, (255, 255, 255), -1)
+	cv.circle(mask, (y, x), radius, (255, 255, 255), -1)
 
 	bright = inp.copy()
 
